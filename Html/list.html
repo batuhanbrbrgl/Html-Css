@@ -1,27 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input{width: 150px;}
+    </style>
 </head>
+
 <body>
-    <ul>
-        <li>batu</li>
-        <ul>
-            <li>batuşuu</li>
-            <li>hımmm</li>
-        </ul>
-        <li>bryza</li>
-        <ul>
-            <li>bırak</li>
-            <li>beni</li>
-        </ul>
-    </ul>
-    <ol type="A">
-        <li>han</li>
-        <li>batu</li>
-    </ol>
+    <table border="2px" style="background-color: cyan;">
+        <tr>
+            <th>
+                Adı
+            </th>
+            <th>
+                <input type="text" id="ad" required>
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+                SoyAdı
+            </th>
+            <th>
+                <input type="text" id="soyad" required>
+            </th>
+        <tr>
+            <th>
+                Eposta
+            </th>
+            <th>
+                <input type="text" id="eposta" required>
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+                Sifre
+            </th>
+            <th>
+                <input type="password" id="sifre" required style="color: red">
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+               Sifre tekrar
+            </th>
+            <th>
+                <input type="password" id="sifretekrar" required>
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+               Telefon
+            </th>
+            <th>
+                <input type="tel" id="telefon">
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+               cinsiyet
+            </th>
+            <th>
+               erkek <input type="radio" >
+               kadın <input type="radio" >
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+               <br>
+            </th>
+            <th>
+                <input type="checkbox" id="telefon">Üyelik sözlesmesini kabul ediyorum
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+              
+            </th>
+            <th>
+               <button onclick="calistir"><a href="üyelik.html">Kayit ol</a></button>
+            </th>
+
+        </tr>
+
+
+    </table>
+
 </body>
+
 </html>
