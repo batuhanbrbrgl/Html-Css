@@ -1,1 +1,1 @@
-# html-css-js-kurs
+# html-css-js
