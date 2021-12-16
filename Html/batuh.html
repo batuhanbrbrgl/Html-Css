@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Flexbox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        min-height: 600px;
+        background: black;
+      }
+      .box {
+        text-align: center;
+        background: #f2f2f2;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex Container -->
+    <div class="container">
+      <div class="box">
+        <h1>Article 1</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="box">
+        <h1>Article 2</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="box">
+        <h1>Article 3</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </body>
+</html>
