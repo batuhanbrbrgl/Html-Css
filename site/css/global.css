@@ -1,0 +1,27 @@
+/* text */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/* colors */
+.bg-char{
+    background-image: url(1500x500.jpg);
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.bg-lac{
+    background: darkblue;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
