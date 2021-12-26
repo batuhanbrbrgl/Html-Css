@@ -5,3 +5,18 @@
     overflow: hidden;
     height:80px;
 }
+.kutu{
+    display:flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     
+}
+.item{
+    
+    width: 300px;
+  
+ 
+  text-align: center;
+   
+   
+}
