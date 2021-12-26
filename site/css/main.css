@@ -55,6 +55,35 @@ html{
     color: black;
 }
 #home a :hover{
-    color: grey;
+    color: rgb(0, 152, 199);
 
 }
+.kutu{
+    display:flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     
+}
+.item{
+    
+    width: 400px;
+  text-align: center;
+   
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3%;
+    border: 5px solid black;
+    border-bottom: 1rem solid rgb(0, 0, 0);
+    
+}
+
+    
+#phone{
+    border-bottom: 1rem solid grey;
+
+}
+#computer{
+    border-bottom: 1rem solid grey;
+}
+
+
