@@ -62,7 +62,60 @@ html{
     display:flex;
     justify-content: center;
      flex-wrap: wrap;
+
      
+}
+.kutu .kutu1 span{
+    position: absolute;
+    left: 220px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+   
+    
+}
+.kutu .kutu2 span{
+    position: absolute;
+    left: 680px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+}
+.kutu .kutu3 span{
+    position: absolute;
+    left: 220px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+   
+    
+}
+.kutu .kutu4 span{
+    position: absolute;
+    left: 680px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+   
+    
+}
+.kutu .kutu5 span{
+    position: absolute;
+    left: 220px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+   
+    
+}
+.kutu .kutu6 span{
+    position: absolute;
+    left: 680px;
+    background-color: grey;
+    color: black;
+    border-radius: 4px;
+   
+    
 }
 .item{
     
@@ -85,5 +138,40 @@ html{
 #computer{
     border-bottom: 1rem solid grey;
 }
-
-
+.twit{
+    color: black;
+    font-size: 40px;
+     margin-left: 6rem;
+      font-family: 'Cormorant Garamond', serif;
+      margin-top: 50px;
+      display: inline-block;
+      
+}
+.twit :hover{
+    color: #00acee;
+}
+.ins{
+    color: black;
+    font-size: 40px;
+     margin-left: 6rem;
+      font-family: 'Cormorant Garamond', serif;
+      margin-top: 50px;
+      display: inline-block;
+}
+.ins :hover{
+    color: #3f729b;
+}
+.mai{
+    color: black;
+    font-size: 40px;
+     margin-left: 6rem;
+      font-family: 'Cormorant Garamond', serif;
+      margin-top: 50px;
+      display: inline-block;
+}
+.mai :hover{
+    color: #FBBC05;
+}
+.contact a{
+    color: black;
+}
