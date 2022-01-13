@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HesapMakinesi</title>
+</head>
+<body>
+    <input type="number" id="sayi1" value="" placeholder="Birinci Sayı" required><br><br>
+    <input type="number" id="sayi2" value="" placeholder="İkinci Sayı" required><br><br>
+    <span>Lütfen Yapacağınız İşlemi Seçiniz;</span><br><br>
+    <select name="" id="islem">
+        <option value="+">Toplama</option>
+        <option value="-">Çıkarma</option>
+        <option value="*">Çarpma</option>
+        <option value="/">Bölme</option>
+    </select><br><br>
+    <input type="text" id ="sonuc" value="" placeholder="Sonuç">
+    <button id="hesapla" onclick="hesapla()">Hesapla</button>
+    <script>
+        function hesapla(){
+            const deger1 = parseInt(document.querySelector("#sayi1").value);
+            const deger2 = parseInt(document.querySelector("#sayi2").value);
+            const islem = document.querySelector("#islem").value;
+            let sonuc =0;
+            if (!deger1) {
+                alert("Birinci değeri giriniz...")
+            } else if (!deger2 && deger2!=0) {
+                alert("İkinci değeri giriniz...")
+            } else {
+                if (islem == "+") {
+                    sonuc = deger1 + deger2;
+                } else if (islem == "-") {
+                    sonuc = deger1 - deger2;
+                } else if (islem == "*") {
+                    sonuc = deger1 * deger2;
+                } else {
+                    if (deger2 == "0") {
+                        alert("Sayı 0' a bölünmez...")
+                    }
+                    sonuc = deger1 / deger2;
+                }
+                document.querySelector("#sonuc").value = sonuc;
+            }
+        }
+    </script>
+</body>
+</html>
