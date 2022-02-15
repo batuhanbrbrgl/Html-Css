@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function renkdegis(renk) {
+            var secim= confirm("Arka plan rengini değiştirmek istiyor musunuz ?");
+            if(secim==false)
+            return;
+            if(renk=='SEC'){
+                var renk_adi=prompt("Bir renk giriniz","ORANGE");
+                document.body.style.background=renk_adi;
+            }
+                else{
+                    document.body.style.background=renk;
+                }
+            }
+        
+    </script>
+</head>
+<body>
+    <div>
+        <h3>arka plan renk değiştirme</h3> <br>
+        <input type="button" value="red" onclick="renkdegis('RED')">
+        <input type="button" value="green" onclick="renkdegis('GREEN')">
+        <input type="button" value="blue" onclick="renkdegis('BLUE')">
+        <input type="button" value="Rengi siz seçiniz" onclick="renkdegis('SEC')">
+
+    </div>
+    
+</body>
+</html>
