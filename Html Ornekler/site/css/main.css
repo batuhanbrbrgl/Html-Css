@@ -175,3 +175,8 @@ html{
 .contact a{
     color: black;
 }
+.container{
+    border-radius: 5px;
+  background-color: rgb(71, 71, 71);
+  padding: 20px;
+}
