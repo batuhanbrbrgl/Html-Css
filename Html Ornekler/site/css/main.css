@@ -76,7 +76,7 @@ html{
 }
 .kutu .kutu2 span{
     position: absolute;
-    left: 680px;
+    left: 220px;
     background-color: grey;
     color: black;
     border-radius: 4px;
@@ -92,7 +92,7 @@ html{
 }
 .kutu .kutu4 span{
     position: absolute;
-    left: 680px;
+    left: 220px;
     background-color: grey;
     color: black;
     border-radius: 4px;
@@ -110,7 +110,7 @@ html{
 }
 .kutu .kutu6 span{
     position: absolute;
-    left: 680px;
+    left: 220px;
     background-color: grey;
     color: black;
     border-radius: 4px;
@@ -177,6 +177,6 @@ html{
 }
 .container{
     border-radius: 5px;
-  background-color: rgb(71, 71, 71);
+  
   padding: 20px;
 }
